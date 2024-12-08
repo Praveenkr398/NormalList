@@ -5,12 +5,21 @@ div{
 }
 
 p {
-    background-color: rgb(252, 223, 186);
+    background-color: rgb(255, 223, 180);
     padding: 30px;
     text-align: center;
+    font-family: cursive;
+    font-size: 26px;
     box-shadow: -2px -2px 5px rgb(210, 210, 210),1px 1px  rgb(120, 120, 120);
 }
 p:hover{
 
     box-shadow: -2px -2px 5px rgb(255, 186, 95),1px 1px  rgb(255, 145, 0);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 174, 0);
+    font-family: cursive;
 }
