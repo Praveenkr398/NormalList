@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    background-color:moccasin;
+    margin: 100px auto;
+    width:550px;
+    height: 600px;
+}
+
+img{
+    margin: 20px 20px;
+    border: 2px solid white;
+    outline: 2px solid red;
+}
+
+.filter {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #ffff78;
+    border-radius: 2px;
+    cursor: pointer;
+}

@@ -7,14 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h2>Normal List...</h2>
-        <p> List 1</p>
-        <p> List 2</p>
-        <p> List 3</p>
-        <p> List 4</p>
-        <p> List 5</p>
-      
+    <div id="container">
+       
+        <img src="picture.jpg" alt="Profile picture">
+<div class="filter">
+
+    <h1>Manage Opacity</h1>
+    <button type="reset" onclick="document.querySelector('img').style.filter= 'opacity(0)'">
+        0000
+        </button>
+        <button type="reset" onclick="document.querySelector('img').style.filter= 'opacity(.1)'">
+            10%
+        </button>
+        <button type="reset" onclick="document.querySelector('img').style.filter= 'opacity(.5)'">
+            50%
+        </button>
+        <button type="reset" onclick="document.querySelector('img').style.filter= 'opacity(1)'">
+            100%
+        </button>
+            
+        
+    </div>
+        
+        
     </div>
 </body>
 </html>
