@@ -1,25 +1,27 @@
+*{margin: 0;}
+
 div{
-    background-color: antiquewhite;
+    background-color: rgb(255, 232, 232);
     padding: 29px;
     margin: 2px;
 }
 
 p {
-    background-color: rgb(255, 223, 180);
+    background-color: rgb(255, 194, 194);
     padding: 30px;
     text-align: center;
     font-family: cursive;
     font-size: 26px;
-    box-shadow: -2px -2px 5px rgb(210, 210, 210),1px 1px  rgb(120, 120, 120);
+    box-shadow: -2px -2px 5px rgb(255, 170, 170),1px 1px  rgb(120, 120, 120);
 }
 p:hover{
 
-    box-shadow: -2px -2px 5px rgb(255, 186, 95),1px 1px  rgb(255, 145, 0);
+    box-shadow: -2px -2px 5px rgb(255, 95, 95),1px 1px  rgb(255, 0, 0);
 }
 
 h2 {
     text-align: center;
     font-size: 30px;
-    color: rgb(255, 174, 0);
+    color: rgb(255, 0, 0);
     font-family: cursive;
 }
