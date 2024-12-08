@@ -1,0 +1,1 @@
+change: added some hover effects: when you mouse hover to the any list it will become weight size 50px and also its box will increase with it as 0.3second 

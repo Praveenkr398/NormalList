@@ -13,10 +13,16 @@ p {
     font-family: cursive;
     font-size: 26px;
     box-shadow: -2px -2px 5px rgb(255, 170, 170),1px 1px  rgb(120, 120, 120);
+    margin: 10px;
 }
 p:hover{
-
+    
     box-shadow: -2px -2px 5px rgb(255, 95, 95),1px 1px  rgb(255, 0, 0);
+    margin: 20px;
+    transition: 0.3s ease-out;
+    font-size: 50px;
+    
+
 }
 
 h2 {
